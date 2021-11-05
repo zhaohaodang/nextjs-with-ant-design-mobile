@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "dev": "next dev",
+        "dev": "next dev -p 8080",
         "build": "next build",
         "start": "next start"
     },
@@ -12,6 +12,7 @@
         "@zeit/next-less": "^1.0.1",
         "antd-mobile": "^2.3.4",
         "axios": "^0.21.0",
+        "dotenv": "^10.0.0",
         "less": "^3.12.2",
         "next": "10.0.1",
         "react": "17.0.1",

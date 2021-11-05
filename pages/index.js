@@ -1,4 +1,5 @@
 import React from "react"
+import { fullName } from '../constants/apiURL'
 export default class Home extends React.Component {
     componentDidMount() {
         setTimeout(() => {
@@ -11,6 +12,8 @@ export default class Home extends React.Component {
             <p>{process.env.NEXT_PUBLIC_ANALYTICS_ID}</p>
             NAME
             <p>{typeof process.env.NAME}</p>
+            fullName
+            <p>{fullName}</p>
         </div>
     }
 }

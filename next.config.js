@@ -1,3 +1,8 @@
+const dotenv = require('dotenv')
+dotenv.config({
+    ccc: 'bbb'
+})
+console.log(process.env)
 // const withLess = require('@zeit/next-less')
 // const withCss = require('@zeit/next-css')
 // const withPlugin = require('next-compose-plugins')
